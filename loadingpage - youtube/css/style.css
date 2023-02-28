@@ -4,14 +4,61 @@ body{
     background-color: #212121;
 }
 
+.conteudo{
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudo-contact{
+  padding: 8%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.conteudo-contact img{
+  width: 450px;
+  height: auto;
+  position: relative;
+  border-radius: 30%;
+}
+
+.mb-3{
+  width: 600px;
+  height: auto;
+  align-content: center;
+}
+
+#btn{
+  background-color: #05053e;
+  color: #ffffff; 
+  border: none;
+}
+#btn:hover{
+  background-color: #7e7ee1;
+  color: #232222; 
+  border: none;
+}
+
+#btn-close{
+  background-color: #232222;
+  color: #ffffff; 
+  border: none;
+}
+#btn-close:hover{
+  background-color: #075c6b;
+  color: white; 
+  border: none;
+}
+
 .carousel-item{
-    padding: 5%;
+    padding: 7%;
     width: 600px;
     height: 600px;
 }
 
 .conteudo-second{
-    padding: 5%;
+  padding: 7%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,6 +67,11 @@ body{
 
 .card{
     align-items: center;
+}
+
+.conteudo-three{
+  padding: 3%;
+
 }
 
 /* This is a compiled file, you should be editing the file in the templates directory */
